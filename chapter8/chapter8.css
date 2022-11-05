@@ -1,0 +1,100 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #6c6b6b;
+}
+
+a{
+  text-decoration: none;
+}
+
+main{
+  width: 960px;
+  margin: 50px auto;
+}
+
+.list{
+  display: flex;
+
+  text-align: left;
+  justify-content: center;
+}
+
+.list-item p:last-child{
+  margin-bottom: 50px;
+}
+
+.list-item p{
+  width: 960px;
+  padding: 20px;
+}
+
+.list-item p:nth-child(odd){
+  background-color: #f7f7f7;
+}
+
+.box-item{
+
+  width: 100%;
+  margin: auto;
+  display: flex;
+  justify-content:center;
+  flex-wrap: wrap;
+
+}
+
+.box p{
+  width: 30%;
+  height: 200px;
+
+}
+
+.box p:nth-child(1){
+ background-color: orange;
+ margin-right: 5%;
+ margin-bottom: 40px;
+}
+
+.box p:nth-child(2){
+ background-color: yellow;
+ margin-right: 5%;
+ margin-bottom: 40px;
+}
+
+.box p:nth-child(3){
+ background-color: yellow;
+ margin-bottom: 40px;
+}
+
+.box p:nth-child(4){
+ background-color: yellow;
+ margin-right: 5%;
+ margin-bottom: 40px;
+}
+
+.box p:nth-child(5){
+ background-color: orange;
+ margin-right: 5%;
+ margin-bottom: 40px;
+
+}
+
+.box p:nth-child(6){
+ background-color: yellow;
+ margin-bottom: 40px;
+}
+
+.box p:nth-child(7){
+ background-color: yellow;
+ margin-right: 5%;
+}
+
+.box p:nth-child(8){
+ background-color: yellow;
+ margin-right: 5%;
+}
+
+.box p:nth-child(9){
+ background-color: orange;
+}
